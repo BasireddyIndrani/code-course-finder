@@ -55,7 +55,8 @@ After running the development server, open the local URL provided in the termina
 
 This project was developed as a learning and portfolio project to practice modern frontend development using React, TypeScript, and Tailwind CSS while building a practical tool for discovering programming courses.
 
-Developer
+Developer:
+
 Basireddy Indrani
 Third-Year B.Tech Student
 
