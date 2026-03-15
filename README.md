@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# Code Course Finder
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Code Course Finder** is a web-based application that helps users quickly discover online courses for various programming languages and technical topics. By simply entering the name of a programming language (such as Python, Java, SQL, Rust, or Assembly), the application instantly suggests relevant courses from popular learning platforms.
 
-## How can I edit this code?
+The goal of this project is to make it easier for learners and developers to explore curated educational resources without manually searching across multiple websites.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+* **Programming Language Search**
+  Users can type any programming language or technology to find relevant courses.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* **Instant Course Suggestions**
+  Displays course recommendations dynamically as the user searches.
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Course Details Display**
+  Shows information such as course title, platform, rating, difficulty level, and tags.
 
-**Use your preferred IDE**
+* **Direct Course Links**
+  Each course suggestion includes a link that opens the actual course page in a new tab.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Support for Multiple Languages**
+  Includes courses for many technologies such as Python, Java, SQL, Haskell, Perl, Lua, Assembly, and more.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **Modern UI with Animations**
+  Built with a responsive and visually appealing interface featuring smooth search animations.
 
-Follow these steps:
+## Technology Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+This project is built using modern frontend technologies:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* **React** – Component-based UI development
+* **TypeScript** – Type-safe JavaScript development
+* **Vite** – Fast development and build tool
+* **Tailwind CSS** – Utility-first CSS framework for styling
+* **shadcn-ui** – Reusable UI components
+* **Framer Motion** – Animations and interactive transitions
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## How to Run the Project Locally
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/BasireddyIndrani/code-course-finder.git
+cd code-course-finder
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+After running the development server, open the local URL provided in the terminal to view the application.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Purpose
 
-**Use GitHub Codespaces**
+This project was developed as a learning and portfolio project to practice modern frontend development using React, TypeScript, and Tailwind CSS while building a practical tool for discovering programming courses.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Developer
+Basireddy Indrani
+Third-Year B.Tech Student
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Passionate about software development and problem solving
+Interested in full-stack development and modern web technologies
+Focused on building practical projects to strengthen programming and development skills
