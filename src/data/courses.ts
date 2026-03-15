@@ -92,6 +92,49 @@ export const courses: Course[] = [
 
   // PySpark
   { id: "ps1", title: "Spark and Python for Big Data with PySpark", platform: "Udemy", platformShort: "UD", instructor: "Jose Portilla", duration: "12h", level: "Intermediate", rating: 4.5, tags: ["RDDs", "DataFrames", "MLlib"], language: "PySpark", url: "https://www.udemy.com/course/spark-and-python-for-big-data-with-pyspark/" },
+
+  // Haskell
+  { id: "hs1", title: "Functional Programming in Haskell", platform: "Coursera", platformShort: "CO", instructor: "University of Glasgow", duration: "24h", level: "Intermediate", rating: 4.6, tags: ["monads", "type classes", "lazy eval"], language: "Haskell", url: "https://www.coursera.org/learn/functional-programming-haskell" },
+  { id: "hs2", title: "Haskell: From First Principles", platform: "Udemy", platformShort: "UD", instructor: "William Yao", duration: "18h", level: "Beginner", rating: 4.5, tags: ["ADTs", "functors", "IO"], language: "Haskell", url: "https://www.udemy.com/course/learning-path-haskell-functional-programming-and-haskell/" },
+  { id: "hs3", title: "CIS 194: Introduction to Haskell", platform: "UPenn", platformShort: "UP", instructor: "Brent Yorgey", duration: "30h", level: "Beginner", rating: 4.8, tags: ["recursion", "higher-order", "typeclasses"], language: "Haskell", url: "https://www.cis.upenn.edu/~cis1940/spring13/" },
+
+  // Perl
+  { id: "pl1", title: "Perl 5 Essential Training", platform: "LinkedIn Learning", platformShort: "LI", instructor: "Bill Weinman", duration: "6h", level: "Beginner", rating: 4.5, tags: ["regex", "file I/O", "modules"], language: "Perl", url: "https://www.linkedin.com/learning/perl-5-essential-training" },
+  { id: "pl2", title: "Learning Perl (Llama Book Course)", platform: "Udemy", platformShort: "UD", instructor: "Daren Riedle", duration: "10h", level: "Beginner", rating: 4.3, tags: ["hashes", "subroutines", "CGI"], language: "Perl", url: "https://www.udemy.com/course/perltutorial/" },
+  { id: "pl3", title: "Advanced Perl Programming", platform: "Pluralsight", platformShort: "PS", instructor: "Paul Barry", duration: "8h", level: "Advanced", rating: 4.4, tags: ["OOP", "CPAN", "testing"], language: "Perl", url: "https://www.pluralsight.com/courses/advanced-perl" },
+
+  // Lua
+  { id: "lu1", title: "Lua Programming and Game Development", platform: "Udemy", platformShort: "UD", instructor: "Awesome Tuts", duration: "12h", level: "Beginner", rating: 4.5, tags: ["tables", "metatables", "LÖVE 2D"], language: "Lua", url: "https://www.udemy.com/course/lua-love/" },
+  { id: "lu2", title: "Complete Lua Programming for Beginners", platform: "Udemy", platformShort: "UD", instructor: "Zenva", duration: "8h", level: "Beginner", rating: 4.4, tags: ["coroutines", "modules", "scripting"], language: "Lua", url: "https://www.udemy.com/course/lua-programming/" },
+  { id: "lu3", title: "Roblox Game Development with Lua", platform: "Udemy", platformShort: "UD", instructor: "GameDev.tv", duration: "20h", level: "Intermediate", rating: 4.6, tags: ["Roblox Studio", "events", "GUI"], language: "Lua", url: "https://www.udemy.com/course/roblox-lua-scripting/" },
+
+  // Assembly
+  { id: "as1", title: "x86 Assembly Language Programming", platform: "Udemy", platformShort: "UD", instructor: "Jason Dsouza", duration: "15h", level: "Intermediate", rating: 4.5, tags: ["registers", "stack", "interrupts"], language: "Assembly", url: "https://www.udemy.com/course/x86-assembly-programming-from-ground-up/" },
+  { id: "as2", title: "ARM Assembly Language From Ground Up", platform: "Udemy", platformShort: "UD", instructor: "Israel Gbati", duration: "12h", level: "Intermediate", rating: 4.6, tags: ["ARM", "embedded", "instructions"], language: "Assembly", url: "https://www.udemy.com/course/arm-assembly-language-from-ground-up/" },
+  { id: "as3", title: "Computer Architecture (NAND2Tetris)", platform: "Coursera", platformShort: "CO", instructor: "Hebrew University", duration: "20h", level: "Beginner", rating: 4.9, tags: ["Hack ASM", "CPU design", "gates"], language: "Assembly", url: "https://www.coursera.org/learn/build-a-computer" },
+
+  // Clojure
+  { id: "cl1", title: "Clojure for the Brave and True", platform: "Udemy", platformShort: "UD", instructor: "Daniel Higginbotham", duration: "10h", level: "Intermediate", rating: 4.5, tags: ["REPL", "macros", "concurrency"], language: "Clojure", url: "https://www.udemy.com/course/learning-clojure/" },
+
+  // Erlang
+  { id: "er1", title: "Functional Programming in Erlang", platform: "FutureLearn", platformShort: "FL", instructor: "University of Kent", duration: "12h", level: "Intermediate", rating: 4.5, tags: ["pattern matching", "OTP", "processes"], language: "Erlang", url: "https://www.futurelearn.com/courses/functional-programming-erlang" },
+
+  // C#
+  { id: "cs1", title: "Complete C# Masterclass", platform: "Udemy", platformShort: "UD", instructor: "Denis Panjuta", duration: "46h", level: "Beginner", rating: 4.6, tags: ["LINQ", ".NET", "OOP"], language: "C#", url: "https://www.udemy.com/course/complete-csharp-masterclass/" },
+  { id: "cs2", title: "C# and .NET 8 Bootcamp", platform: "Udemy", platformShort: "UD", instructor: "Mosh Hamedani", duration: "30h", level: "Intermediate", rating: 4.7, tags: ["ASP.NET", "Entity Framework", "APIs"], language: "C#", url: "https://www.udemy.com/course/csharp-tutorial-for-beginners/" },
+
+  // HTML/CSS
+  { id: "hc1", title: "Build Responsive Websites with HTML & CSS", platform: "Udemy", platformShort: "UD", instructor: "Jonas Schmedtmann", duration: "38h", level: "Beginner", rating: 4.8, tags: ["Flexbox", "Grid", "Sass"], language: "HTML/CSS", url: "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" },
+
+  // Zig
+  { id: "zg1", title: "Zig Programming Language", platform: "YouTube", platformShort: "YT", instructor: "Ziglings", duration: "10h", level: "Intermediate", rating: 4.5, tags: ["comptime", "allocators", "safety"], language: "Zig", url: "https://codeberg.org/ziglings/exercises/" },
+
+  // V
+  { id: "v1", title: "V Programming Language Tutorial", platform: "YouTube", platformShort: "YT", instructor: "V Community", duration: "6h", level: "Beginner", rating: 4.3, tags: ["simplicity", "C interop", "fast compile"], language: "V", url: "https://github.com/vlang/v/blob/master/doc/docs.md" },
+
+  // Bash/Shell
+  { id: "ba1", title: "Linux Shell Scripting", platform: "Udemy", platformShort: "UD", instructor: "Jason Cannon", duration: "8h", level: "Beginner", rating: 4.6, tags: ["bash", "cron", "sed/awk"], language: "Bash", url: "https://www.udemy.com/course/linux-shell-scripting-projects/" },
+  { id: "ba2", title: "Bash Scripting and Shell Programming", platform: "Udemy", platformShort: "UD", instructor: "Jason Cannon", duration: "5h", level: "Beginner", rating: 4.6, tags: ["variables", "loops", "functions"], language: "Bash", url: "https://www.udemy.com/course/bash-scripting/" },
 ];
 
 export const languages = [...new Set(courses.map(c => c.language))].sort();
