@@ -58,7 +58,6 @@ This project was developed as a learning and portfolio project to practice moder
 Developer:
 
 Basireddy Indrani
-Third-Year B.Tech Student
 
 Passionate about software development and problem solving
 Interested in full-stack development and modern web technologies
